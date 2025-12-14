@@ -1,0 +1,246 @@
+# Aumentar timeout para comandos lentos (SDKMAN)
+command_timeout = 1000
+
+# Deshabilitar detección de Java (SDKMAN es lento)
+[java]
+disabled = true
+
+# Paleta de colores Tomorrow Night Bright
+palette = 'tomorrow_night_bright'
+
+[palettes.tomorrow_night_bright]
+foreground = "#eaeaea"
+background = "#000000"
+red = "#d54e53"
+orange = "#e78c45"
+yellow = "#e7c547"
+green = "#b9ca4a"
+aqua = "#70c0b1"
+blue = "#7aa6da"
+purple = "#c397d8"
+comment = "#969896"
+
+# Aplicar colores Tomorrow Night Bright
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
+[directory]
+style = "bold blue"
+read_only = " 󰌾"
+
+[git_branch]
+style = "bold purple"
+symbol = "⎇ "
+
+[git_status]
+style = "bold red"
+
+[username]
+style_user = "bold yellow"
+style_root = "bold red"
+
+[hostname]
+style = "bold aqua"
+ssh_symbol = " "
+
+[cmd_duration]
+style = "bold yellow"
+
+# Deshabilitar batería
+[battery]
+disabled = true
+
+# Símbolos personalizados
+[aws]
+symbol = "☁ "
+
+[buf]
+symbol = " "
+
+[bun]
+symbol = " "
+
+[c]
+symbol = " "
+
+[cpp]
+symbol = " "
+
+[cmake]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[crystal]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[deno]
+symbol = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fennel]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[gcloud]
+symbol = "  "
+
+[git_commit]
+tag_symbol = '  '
+
+[golang]
+symbol = " "
+
+[guix_shell]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[kotlin]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[meson]
+symbol = "󰔷 "
+
+[nim]
+symbol = "󰆥 "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+style = "bold #a8d3ff"
+
+[ocaml]
+symbol = " "
+
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+AlmaLinux = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CachyOS = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+Nobara = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+RockyLinux = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Void = " "
+Windows = "󰍲 "
+
+[package]
+symbol = "󰏗 "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[pijul_channel]
+symbol = " "
+
+[pixi]
+symbol = "󰏗 "
+
+[python]
+symbol = " "
+
+[rlang]
+symbol = "󰟔 "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = "󱘗 "
+
+[scala]
+symbol = " "
+
+[swift]
+symbol = " "
+
+[zig]
+symbol = " "
+
+[gradle]
+symbol = " "
+
+[kubernetes]
+symbol = "☸ "
+style = "bold blue"
+disabled = false
+format = '[$symbol$context](bold blue)[ ⊛ $namespace](bold aqua) '
+
+[kubernetes.context_aliases]
+"chocolandiadc-mvp" = "🍫 mvp"
+"arn:aws:eks:*:*:cluster/*" = "eks"
+
+[kubernetes.user_aliases]
+"clusterUser_*" = "k8s-user"

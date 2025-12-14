@@ -1,0 +1,8 @@
+# Configuración básica de atuin
+ctrl_n_shortcuts = true  # Usar Ctrl+0-9 en lugar de Alt+0-9
+enter_accept = false     # Tab para editar, Enter para ejecutar
+search_mode = "fuzzy"
+filter_mode = "global"
+style = "compact"
+auto_sync = true
+update_check = false

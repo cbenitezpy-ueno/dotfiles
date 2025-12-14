@@ -1,0 +1,28 @@
+# Sensitive data
+*.env
+*secrets*
+*credentials*
+*token*
+*.pem
+*.key
+hosts.yml
+
+# Cache and generated
+*.zwc
+.zcompdump*
+*.pyc
+__pycache__/
+.cache/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# History (puede contener datos sensibles)
+*_history
+*history*
+
+# Local overrides
+*.local
+*.local.*mcp.json
